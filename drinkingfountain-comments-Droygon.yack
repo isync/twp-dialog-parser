@@ -1,0 +1,36 @@
+# this file is copyright user Droygon, from Thimbleweed Park's blog comments
+:main
+1  gulp gulp gulp gulp -> main [random]
+1  gulp sip sip sip gulp -> main [random]
+1  slurrrrrrp slurp slurp  -> main [random]
+2  sip sip sip sip  -> main [random]
+2  lap lap siiiip siiiiip gluuuup -> main [random]
+2  sip sip sip sip gulp gulp -> main [random]
+3  slurp gulp gulp slurp -> main [random]
+3  gulp ooowk gulp ooowk gulp ooowk -> main [random]
+3  smulp slurp smulp gulp slurp -> main [random]
+4  glub swish swish swish pewee -> main [random]
+4  gulp sip sip slurp glub -> main [random]
+4  slurrrrrrrrrrrrrrrp slurrrrrrrrrrrrrrp -> main [random]
+5 Click! -> broken [random]
+5 Guahh guahh... -> weird [random]
+5 Drinkitty drankitty -> main [random]
+6  Ahhhhhhhh -> exit
+
+:broken
+1 Clickitty... -> broken [random]
+1 Clackitty... -> broken [random]
+2 Clickitty... Clack...! -> broken [random]
+2 Clackitty... Click...! -> broken [random]
+3 Clickitty... Clackin'... Clump! -> broken [random]
+3 Clackitty... Clickin'... Clomp! -> broken [random]
+4 Climpitty... Clumpitty... Squeek SqueeEEek... Slushhhh!!! -> main [random]
+4 Clunk!... Sqaaawk SqueeEEek... Slooshhhh!!! -> main [random]
+
+:weird
+1 Hhhh... brrrrrraaaAaawk... mMMMmaaawk!!! -> weird[random]
+1 Hhhh... gurrrRrRrRrgle... gurgurgurg... -> weird[random]
+2 Gump gump gump... whoosh! -> weird[random]
+2 Buagh buagh buagh... gurgle gurgle! -> weird[random]
+3 SluuuUrrrp! mmm... -> main [random]
+3 GrrrrughhP! mmm... -> main [random]

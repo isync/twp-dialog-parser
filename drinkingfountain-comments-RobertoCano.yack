@@ -1,0 +1,106 @@
+# this file is copyright user Robert Cano, from Thimbleweed Park's blog comments
+:main
+1 gulp gulp -> main [random]
+1 sip sip  -> main [random]
+1 gulp sip -> main [random]
+1 sip slurp -> main [random]
+2 sluuuuurp -> main [random]
+2 slurp sip slurp -> main [random]
+2 sluuurp sip sip -> main [random]
+3 gogle gogle slurp -> main [random]
+3 gogle gulp siiip -> main [random]
+4 guble guble slurp -> thirsty [random]
+4 bubbly bubbly sip -> bubbly [random]
+4 sloppy slappy blarg -> wtf [random]
+
+:thirsty
+1 sluuurp luuurp slurpy -> thirsty [random]
+1 lap lap lapity lap -> thirsty [random]
+1 gogle gooogle glack -> thirsty [random]
+2 siiiiip siiiiiiiiiiip siiiiiiiiiiiiiiiiip -> thirsty [random]
+2 shuuuuuu shuuuuuuuup shuuuuuuup -> mouthfull [random]
+2 bagly baaably baaaaabgluy -> thirsty [random]
+2 bleeeeech bleech bleeeechyblech -> thirsty [random]
+3 ashup ashup ashup -> main [random]
+3 glub glub glub -> thirsty [random]
+3 gararara gararara gararara -> wtf [random]
+
+bubbly:
+1 bulubulubub blububub -> thirsty [random]
+1 aguluglub aguluglub -> bubbly [random]
+2 bubble bobble bubble -> bubbly [random]
+2 blug blug blug -> wtf [random]
+3 blob bob ob b -> thirsty [random]
+3 bolobyliblubblyblobeblob -> mouthfull [random]
+
+:wtf
+1 bluggy boggly blobyy -> bubbly [random]
+1 uruburublug uruburublug -> thirsty [random]
+1 argahagara agrghrhgaa -> thirsty [random]
+2 sipitybubblyty sipitybubblyty -> main [random]
+2 asperger asperger boglity -> wtf [random]
+2 blergity awky awk ggggg -> dying [random]
+3 goooooorggg gaaaaaarggggg aggg? -> mouthful [random]
+3 fee-fi-fo-fum uhmmmm....? -> thimbleweed [random]
+3 ........ ............. ........... -> dying [random]
+
+:mouthful
+1 bllbllglgg blllglbbl blllllgglglglgg -> bubbly [random]
+1 ghhhgggggg gggghhgggh gghghghghghg -> mouthful [random]
+2 brrrgggg brrrrrrrrgggg brgg -> thirsty [random]
+2 wkkkkwkwk kwkwkkw kwkwkwkw -> wtf [random]
+3 8181181818 888881888188188 88181818 -> wtf [random]
+3 thmblwdblblblbl thmblwdblblbll -> thimbleweed [random]
+
+:dying
+1 awwwwwwkkkkkkk....... kkkkk ...........!!!!! -> dying [random]
+1 gghhhhhhhhhhh gggghhhhh ggggggg -> dying [random]
+2 blggggg blggggg blgg blag -> bubbly [random]
+2 agkkkk hic hic!! akkkkkkkkkk...... -> dying [random]
+3 bgrhgbhgrhbrgrhrhrghbhbrrhrg -> mouthful [random]
+2 goooorkkk bleeeeeeeerk gulp! -> main [random]
+
+:thimbleweed
+1 baaaaakkkk baaaaccackk baaaaackkkkerrrs -> main [random]
+1 gaaaaarrrrkk garrrrrr gaaayyyy Gary! -> main [random]
+1 maaacc maaaanccccccc maaaaaaniacccccc -> main [random]
+1 roglll roooooooogllllln roooooooobllll Ron! -> main [random]
+1 maakkkk mak aaaaarkkkkk Mark! -> main [random]
+1 ooooonk oooooonky moooonkey..... -> main [random]
+2 STOP THIS MADNESS!!! -> main [random]
+3 This is not madness....THIS IS THIMBLEWEED!!! -> soliloquy1 [random]
+
+:soliloquy1
+1 .......ok, you did it, you run out of dialogue choices, happy? -> soliloquy2
+
+:soliloquy2
+1 No, seriously, no choices left. Do you think I don't have better things to do? -> soliloquy3
+
+:soliloquy3
+1 Right, keep trying, no way I'm gonna give you yet another dialogue choice! -> soliloquy4
+
+:soliloquy4
+1 Poor kid, no life, no purpose, just clicking and clicking waiting for a normal life..... -> soliloquy5
+
+:soliloquy5
+1 Ok, ok! Click again and I will give you a dialogue choice. -> soliloquy6
+
+:soliloquy6
+1 DIALOG CHOICE -> soliloquy7
+
+:soliloquy7
+1 Ok, ok! Click again and I will give you a dialogue choice. -> soliloquy8
+
+:soliloquy8
+1 DIALOG CHOICE -> soliloquy9
+
+:soliloquy10
+1 Ha!! I freaked you out! You thought you were in a loop! -> soliloquy11
+:soliloquy11
+1 Ha!! I freaked you out! You thought you were in a loop! -> soliloquy12
+
+# This can be repeated several times
+:soliloquy90
+1 Fine, fine. I give up you win!! This is the end of the game!! Hooray!!! Congratulations!!!! Now the credits:
+
+# Play credits.....or abort.....or autodestroy game......whatever!!!!!

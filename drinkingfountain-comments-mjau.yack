@@ -1,0 +1,54 @@
+# this file is copyright user mjau, from Thimbleweed Park's blog comments
+:main
+1 sniff -> sniff
+2 sip -> slurp
+3 slurp -> slurp
+
+:sniff
+1 sip -> slurp [random]
+1 slurp -> slurp [random]
+2 sniff sniff -> sniff
+2 sniff sniff sniff -> sniff
+3 sniffle -> achoo
+
+:slurp
+1 sip sip slurp mmm slurp -> enjoy [random]
+2 sip slurp slurp sip slurp -> enjoy [random]
+3 slurp slurp yuck slurp -> cough
+
+:enjoy
+1 slurp slurp sluuuurp -> escalate [random]
+2 slurp slurp sip slurp gulp -> escalate [random]
+
+:escalate
+1 slurp slurp slurp slurp sluuuurp sluuuuurp SLUUUUUUUUUURP -> splash
+1 slurp slurp gulp slurp sluuuuurp -> splash [random]
+2 slurp gulp slurp spkt -> cough [random]
+2 gulp gulp gaaaah cough -> cough [random]
+3 sluuuuuHIC -> hicup [random]
+
+:cough
+1 cough cough hark slurp HARK YEARGH -> main [random]
+1 cough hark sluuurHEARGH cough cough sluuHARK HOARGH -> main [random]
+
+:hicup
+1 hic hic hic hic hic -> hicup [random]
+1 hic hic HIC hic hic -> hicup [random]
+2 hic hic slurp HIC hic -> splash [random]
+2 slurp slurp HIC HIC HIC slurp HIC -> splash [random]
+3 hic hic sluuuurp gulp snort -> achoo [random]
+3 hic sluuuurp sniffle -> achoo [random]
+
+:achoo
+1 ACHOO ACHOOO ACHOOOO -> splash
+
+:splash
+1 SPLASH -> done [random]
+1 SPLOSH -> done [random]
+
+:done
+1 hic -> exit
+1 sip -> exit
+1 slurp -> exit
+1 aaah -> exit
+1 phew -> exit

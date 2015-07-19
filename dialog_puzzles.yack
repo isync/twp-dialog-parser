@@ -1,0 +1,62 @@
+# this file is copyright Ron Gilbert
+:ray_first_meeting
+!talked_to_sheriff = YES
+sheriff:  Howdee. The name's Sheriff Crook, local sheriff of Thimbleweed Park.
+    I don't remember calling the feds-a-renos.
+    That's what you are? Feds?
+    Hard to miss the goverment issue suits.
+
+:main
+1  Damn straight we're the feds. -> crap [showonce]
+2  Cut the Mayberry crap, we're taking over this case. -> crap
+3  How long were you going to let that body rot in the river? -> rot
+4  I'm agent Ray and this is... uh... my partner. -> hi
+5  Know any place that serves good pie? -> eat [once]
+5  Know any place that serves good meatloaf? -> eat [once]
+5  Know any place that serves good hamburgers? -> eat [once]
+5  Know any place that serves good hotdogs. -> eat [once]
+5  Why don't you shut the place down? -> shutdown [once]
+
+:eat
+!++asked_about_food
+sheriff:  You could try the Diner down the street, but no one eats there...
+pause 0.5
+sheriff:  *whispering* Botalisium. [asked_about_food == 1]
+sheriff:  *whispering* E. coli. [asked_about_food == 2]
+sheriff:  *whispering* Plague. 	[asked_about_food == 3]
+sheriff:  *whispering* Butylated Hydroxytoluene. [asked_about_food == 4]
+-> main
+
+:shutdown
+sheriff:  Why would I do that? I get a 5% law enforcement discount.
+-> main
+
+:rot
+sheriff:  The river is so chocked full of chemicals from the old pillow factory...
+    ...it's better off there than in a tub of formaldehyde.
+sheriff:  {chuckle}
+-> next
+
+:crap
+!sheriff_hostility++
+sheriff:  Whoa... hold your horse-a-renos, no need to get snippy.
+-> next
+
+:hi
+sheriff:  Nice to meet you, agent-a-renos.
+-> next
+
+:next
+sheriff:  Looks like you heard about our little murder-reno out by the bridge.
+reyes:  There nothing 'little' about murder, sir.
+pause 0.5
+ray:  *sigh*
+    Ignore him... he's new.
+pause 0.5
+sheriff:  No sense in wasting everyone's time-a-reno.
+    This cut-scene is starting to get long and it's only going to get longer.
+    Let's find the coroner and get you on your way.
+    {face_front}
+    Wrestling starts at eight.
+reyes:  I hope he's talking about on TV
+exit
