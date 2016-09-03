@@ -62,7 +62,7 @@ sub room {
 
 			$choice = $tc->choose( \@ARGV );
 		}else{
-			$choice = shift;
+			$choice = shift @ARGV;
 		}
 
 		print "You're now talking to $choice \n\n";

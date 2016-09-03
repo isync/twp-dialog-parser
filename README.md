@@ -24,6 +24,8 @@ Clone this directory, install the Perl dependencies via CPAN and run:
 The rest is interactive. Debug mode is currently on. And some .yack syntax
 feature are not implemented completely, like the "conditionals".
 
+(Actually, currently only dialog_puzzles.yack sorta works...)
+
 ## See Also
 
 https://github.com/mbensley/thimble-dialog/
@@ -33,6 +35,16 @@ http://blog.thimbleweedpark.com/dialog_puzzles
 http://blog.thimbleweedpark.com/drinkingfountain
 
 http://blog.thimbleweedpark.com/podcast14
+
+### Similar
+
+as Ron referenced "Ink" as influential:
+
+https://github.com/inkle/ink
+
+https://www.youtube.com/watch?v=KYBf6Ko1I2k
+
+http://gdcvault.com/play/1021666/80-DAYS-Post-mortem-Letting
 
 ## Copyright
 
